@@ -20,8 +20,8 @@ from travel_app import views
 urlpatterns = [
     path(r'',views.index,name='index'),
     # url(r'^$',views.newq,name='newq'),
-    path(r'^admin/', admin.site.urls),
+    path(r'admin/', admin.site.urls),
     path(r'^travel_app/',include('travel_app.urls',namespace="travel_app")),
-    path(r'^user_logout/$',views.user_logout,name='user_logout'),
+    path(r'^user_logout/',views.user_logout,name='user_logout'),
 
 ]

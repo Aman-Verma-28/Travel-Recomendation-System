@@ -14,9 +14,9 @@ class datarel:
 
     citiesId_to_name = {}
     name_to_citiesId = {}
-    ratingsPath = r'../data/ratings.csv'
-    citiesPath = r'../data/cities.csv'
-    
+    ratingsPath = r'C:\Users\Asus\Downloads\reva\Travel-Recomendation-System\traverCity_A-Travel-recommendation-system\data\ratings.csv'
+    citiesPath = r'C:\Users\Asus\Downloads\reva\Travel-Recomendation-System\traverCity_A-Travel-recommendation-system\data\cities.csv'
+
     def loadCitiesLatest(self):
 
         
